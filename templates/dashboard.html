@@ -1,0 +1,27 @@
+{% extends 'base.html' %}
+
+{% block head %}
+    <title>Dashboard</title>
+    <style>
+    
+    </style>
+{% endblock %}
+
+
+{% block body %}
+
+    <div class="content">
+
+        <h1>Private Page</h1>
+
+        <p><a href="{{ url_for('home') }}">Homepage</a></p>
+
+        <p><a href="{{ url_for('logout') }}">Logout</a></p>
+        
+    </div>
+
+    <script>
+
+    </script>
+
+{% endblock %}
