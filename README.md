@@ -1,2 +1,1 @@
-# tutorial-railway
-Flask Application + Database
+# Flask Template
